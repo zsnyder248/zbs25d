@@ -2,23 +2,23 @@
 
 ## Introduction
 ### Purpose
-    This document is intended to fully specify the requirements and detail the software architecture of the front end web design of Augur. This will describe the behavior of the web page as well as system requirements, design constraints, and inner workings of the page.
+##### This document is intended to fully specify the requirements and detail the software architecture of the front end web design of Augur. This will describe the behavior of the web page as well as system requirements, design constraints, and inner workings of the page.
 
 ### Scope
-    This web page will be used for anyone to view the health of their projects. 
+##### This web page will be used for anyone to view the health of their projects. 
 
 
 ## Software product overview
-    This web page is intended to get information from Augur APIs and display the information on a web page. It will be available to everyone. The web page will display repo groups and repo group information based on the input of the user. Also, the web page will display all information in an organized way.
+##### This web page is intended to get information from Augur APIs and display the information on a web page. It will be available to everyone. The web page will display repo groups and repo group information based on the input of the user. Also, the web page will display all information in an organized way.
 
 
 ## System Use
 ### Actor Survey
 #### Employee
-    The employees or software engineers are responsible for including more and more endpoints, so users can see any information they could possibly want.
+##### The employees or software engineers are responsible for including more and more endpoints, so users can see any information they could possibly want.
 
 #### User
-    The user would be the one that views all information by interacting with the interface.
+##### The user would be the one that views all information by interacting with the interface.
 
 
 ## System Requirements
@@ -33,7 +33,7 @@
     3. The web page displays contributors and their information that have contributed to that repo group
 
 ### System functional specification
-    The system is a web application that will use a server. The data will be pulled through the server. There will be a home page to display all repo groups that are apart of Augur. Based on user input, the application will go to a different page to display the relevant data.
+##### The system is a web application that will use a server. The data will be pulled through the server. There will be a home page to display all repo groups that are apart of Augur. Based on user input, the application will go to a different page to display the relevant data.
 
 ### Non-functional requirements
 #### Usability
@@ -60,7 +60,7 @@
     1. Amazon AWS
 
 ## Purchased Components
-    A server for the web application. Users can go to the website and use all information. 
+##### A server for the web application. Users can go to the website and use all information. 
 
 ## Interfaces
-    The web application interface will be created using HTML, CSS, and Javascript. It will be hosted on a server. The interface will be able to be accessed by any user via the web
+##### The web application interface will be created using HTML, CSS, and Javascript. It will be hosted on a server. The interface will be able to be accessed by any user via the web
